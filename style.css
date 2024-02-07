@@ -1,0 +1,221 @@
+*{
+margin: 0;
+box-sizing: border-box;
+padding: 0;
+font-family:   'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif ;
+}
+body{
+
+    background: #fff;
+}
+.layout{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 100vh;
+}
+
+.header{
+
+    height: 75px;
+    border-bottom: 1px solid rgb(209, 204, 204);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    align-items: center;
+
+}
+nav{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    margin-left: 40px;
+}
+.logo{
+    
+   
+    width: 150px;
+    cursor: pointer;
+    
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Indeedlogo{
+    margin-right: 20px;
+    height: 30px;
+    width: 120px;
+
+}
+.Indeedlogo2{
+    margin-right: 20px;
+    height: 50px;
+   
+
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav li{
+    display:inline;
+    float: left;
+}
+nav li a{
+    padding: 10px;
+    font-size: 0.85rem;
+    text-decoration: none;
+    color:#2d2d2d;
+} 
+nav li a:visited {
+    background-color: yellowgreen;
+}
+.signup a{
+    font-size: 0.85rem;
+    text-decoration: none;
+   margin-right: 30px;
+   color:#2d2d2d;
+
+}
+.border{
+    margin: 0 5px;
+    background-color:  rgb(209, 204, 204);
+    height: 30px;
+    width: 2px;
+}
+.search-section{
+
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+
+.searchinput{
+    justify-content: center;
+     margin: 20px 17%;
+    align-items: center;
+   display: flex;
+    width: 65%;
+    height: 70px;
+    border: 2px solid rgb(209, 204, 204);
+    border-radius: 6px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+
+
+}
+.jobsearch{
+    align-items: center;
+    justify-content: flex-start;
+}
+.jobsearch i{
+
+    margin: 25px;
+    font-size: 20px;
+    
+
+}
+.jobsearch input{
+
+    height: 50px;
+    width: 300px;
+    border: 0;
+    outline: 0;
+}
+.jobsearch input::placeholder{
+    font-size: 17px;
+}
+.searchinput button{
+
+    height: 45px;
+    width: 100px;
+    border-radius: 7px;
+    background: blue;
+    color: #fff;
+    font-weight: 700;
+    font-size: 15px;
+    
+}
+.section-main{
+    align-items: center;
+    display: block;
+    justify-content: center;
+}
+.section-para{
+    margin: 40px ;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+.section-para h4{
+margin: 10px;
+color: rgb(71, 71, 190);
+font-weight: 900;
+font-size: 15px
+}
+.section-para h4{
+    display: inline;
+    padding: 20px;
+}
+.section-para a{
+
+    text-decoration: none;
+    font-weight: 700;
+    
+   
+}
+.section-para p{
+
+    margin: 20px;
+   
+}
+.second p{
+    font-size: 13px;
+    
+   
+}
+.second i{
+    padding: 10px;
+}
+
+.footer{
+
+    margin: 80px 0;
+    height: 150px;
+    border-top: 1px solid rgb(209, 204, 204);
+    width: 100%;
+}
+.first-secfoot{
+
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 14px;
+    padding: 5px;
+}
+.first-secfoot ul{
+    margin: 10px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 65%;
+  
+    list-style-type: none; 
+    
+    overflow: hidden;
+}
+.first-secfoot li{
+    margin: 10px 10px;
+   
+}
+.first-secfoot li:hover{
+    text-decoration: underline;
+}
